@@ -1,1 +1,45 @@
 /* Write your CSS here */
+
+.latest-match-details {
+  width: 95%;
+  height: 310px;
+  background-color: #0f172a;
+  border-radius: 10px;
+  color: whitesmoke;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.name-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 33%;
+}
+
+.competing-team-logo {
+  width: 30%;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 33%;
+}
+
+.innings-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-bearoundtween;
+  align-items: flex-start;
+  width: 33%;
+  height: 100%;
+}
+
+.card-head {
+  font-size: 20px;
+}

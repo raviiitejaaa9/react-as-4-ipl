@@ -49,7 +49,7 @@ class Home extends Component {
         </div>
         {isLoading ? (
           <div data-testid="loader">
-            <Loader type="Rings" color="#ffffff" height={80} width={80} />
+            <Loader type="Oval" color="#ffffff" height={50} width={50} />
           </div>
         ) : (
           <ul className="team-cards-container">

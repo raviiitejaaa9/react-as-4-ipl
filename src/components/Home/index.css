@@ -3,9 +3,9 @@
 .app-container {
   background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
   background-size: cover;
-  height: 100vh;
   padding: 10px;
   display: flex;
+  height: 100vh;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;

@@ -1,1 +1,46 @@
-/* Write your CSS here */
+/* Write your CSS here*/
+
+body {
+  margin: 0px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.team-matches-container {
+  margin: 0px;
+  background-image: linear-gradient(#d91c1f, #a4261d, #1e293b);
+  background-size: cover;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.banner-container {
+  width: 95%;
+  border-radius: 10px;
+  margin-bottom: 2%;
+}
+.team-banner {
+  width: 100%;
+  height: 310px;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .team-banner {
+    height: 200px;
+  }
+}
+
+.recent-matches-container {
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  flex-wrap: wrap;
+  border: none;
+  list-style-type: none;
+}
