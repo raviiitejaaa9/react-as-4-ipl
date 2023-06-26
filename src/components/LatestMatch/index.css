@@ -2,7 +2,7 @@
 
 .latest-match-details {
   width: 95%;
-  height: 310px;
+  height: 350px;
   background-color: #0f172a;
   border-radius: 10px;
   color: whitesmoke;
@@ -22,24 +22,27 @@
 }
 
 .competing-team-logo {
-  width: 30%;
+  width: 220px;
   height: 220px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-end;
-  width: 33%;
 }
 
 .innings-details {
   display: flex;
   flex-direction: column;
-  justify-content: space-bearoundtween;
-  align-items: flex-start;
+  justify-content: space-around;
+  align-items: flex-end;
   width: 33%;
   height: 100%;
+  font-size: 11px;
+}
+.innings {
+  width: 33%;
 }
 
 .card-head {
-  font-size: 20px;
+  font-size: 13px;
 }

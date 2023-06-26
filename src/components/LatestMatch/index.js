@@ -32,14 +32,14 @@ const LatestMatch = props => {
         src={competingTeamLogo}
         alt={`latest match ${competingTeam}`}
       />
-      <div className="">
-        <h1 className="card-head"> First Innings </h1>
+      <div className="innings-details">
+        <p className="card-head"> First Innings </p>
         <p> {firstInnings} </p>
-        <h1 className="card-head"> Second Innings </h1>
+        <p className="card-head"> Second Innings </p>
         <p> {secondInnings} </p>
-        <h1 className="card-head"> Man of the Match </h1>
+        <p className="card-head"> Man of the Match </p>
         <p> {manOfTheMatch} </p>
-        <h1 className="card-head"> Umpires </h1>
+        <p className="card-head"> Umpires </p>
         <p> {umpires} </p>
       </div>
     </div>
